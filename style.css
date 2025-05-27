@@ -1,0 +1,338 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #343a38d6;
+    color: #333;
+    line-height: 1.6;
+    position: relative;
+}
+
+/* --- Principal Container --- */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; /* Clears floats inside */
+}
+
+/* --- Left Column (div-1) --- */
+.div-1 {
+    flex: 1; /* Allows it to grow */
+    min-width: 280px; /* Minimum width before wrapping */
+    background-color: #2c3e50; /* Dark blue/grey */
+    color: #ecf0f1; /* Light grey text */
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Spacing between elements */
+}
+
+#img img {
+    border-radius: 50%; /* Makes the image round */
+    border: 4px solid #3498db; /* Blue border */
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.namefull {
+    margin-bottom: 10px;
+}
+
+#name {
+    margin: 0;
+    font-size: 2.2em;
+    color: #3498db; 
+}
+
+#full {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #bdc3c7; 
+}
+
+.social-icons {
+        display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    height: 38px;
+    width: 173px;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.social-icons a img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.Social div {
+    font-size: 0.95em;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* You might want to add icons to correo and direccion here in HTML or via CSS pseudo-elements */
+#resumen {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    display: inline-block; /* Allows padding and margin to work */
+}
+
+#resumen:hover {
+    background-color: #555a58; 
+}
+
+/* --- Right Column (div-2) --- */
+.div-2 {
+    flex: 2; /* Allows it to grow more than div-1 */
+    min-width: 320px; 
+    padding: 30px;
+    background-color: #fff;
+}
+
+#aboute {
+    color: #2c3e50;
+    font-size: 2em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#hello {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.div-2 span {
+    display: inline-block; /* Allows spacing and padding */
+    margin-right: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #050505;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.div-2 span:hover {
+    color: #030303;
+}
+
+/* --- Skills Section --- */
+#skills-body {
+        max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#skills-body h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+#Skills{
+      background-color: #2c3e50;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -5px;
+    height: 104px;
+    width: 220px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+    
+
+}
+
+#Skills:hover{
+    box-shadow: 0 6px 15px #354352;
+    transform: translateY(-5px);
+}
+
+
+
+#a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#b{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#c{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#skills-body img {
+    vertical-align: middle; /* Aligns images nicely */
+}
+
+/* --- Projects Section --- */
+#projects-body {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+#Projects{
+      margin-top: 100px;
+    height: 104px;
+    background-color: #2c3e50;
+    position: absolute;
+    width: 220px;
+    border-radius: 20px;
+    margin-left: 243px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Projects:hover{
+    box-shadow: 0 6px 15px #354352;
+    transform: translateY(-5px);
+}
+
+
+#Contact{
+       background-color: #2c3e50;
+    height: 104px;
+    width: 220px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 492px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    }
+
+#Contact:hover{
+    box-shadow: 0 6px 15px #354352;
+    transform: translateY(-5px);
+}
+.container-projects h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px #3498db;
+}
+
+.project-item h3 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-item p {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-small {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-small:hover {
+    background-color: #2980b9;
+  }  
+
+
+  #contact-body{
+    background-color: #fff;
+    width: 800px;
+    height: 444px;
+    margin-left: 55px;
+    border-radius: 10px;
+    padding: 20px;
+    }
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#btn{
+  color: #fff;  
+}
