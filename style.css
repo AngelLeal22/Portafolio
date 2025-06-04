@@ -165,10 +165,10 @@ body {
 #Skills{
       background-color: #2c3e50;
     position: absolute;
-    margin-top: 80px;
-    margin-left: -5px;
-    height: 104px;
-    width: 220px;
+    margin-top: -240px;
+    margin-left: 377px;
+    height: 40px;
+    width: 105px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -216,13 +216,13 @@ body {
 
 #Projects{
       margin-top: 100px;
-    height: 104px;
+    height: 40px;
     background-color: #2c3e50;
     position: absolute;
-    width: 220px;
+    width: 105px;
     border-radius: 20px;
-    margin-left: 243px;
-    margin-top: 80px;
+    margin-left: 490px;
+    margin-top: -240px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,17 +232,20 @@ body {
 #Projects:hover{
     box-shadow: 0 6px 15px #354352;
     transform: translateY(-5px);
+    
 }
+
+
 
 
 #Contact{
        background-color: #2c3e50;
-    height: 104px;
-    width: 220px;
+    height: 40px;
+    width: 105px;
     border-radius: 20px;
     position: absolute;
-    margin-top: 79px;
-    margin-left: 492px;
+    margin-top: -240px;
+    margin-left: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,22 +320,34 @@ body {
   }  
 
 
-  #contact-body{
+  #contact-form{
     background-color: #fff;
-    width: 800px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
     height: 444px;
     margin-left: 55px;
     border-radius: 10px;
-    padding: 20px;
+    
     }
 
 #contact-form {
+    background-color: #fff;
+    max-width: 550px;
+    margin: 50px auto;
+    padding: 30px;
+    height: 445px;
+    margin-left: 130px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    
 }
+
 
 
 #btn{
-  color: #fff;  
+  color: #fff;
+  
 }
+
